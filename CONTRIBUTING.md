@@ -67,7 +67,7 @@ python -m pytest tests -q
 python -m server.app # живой режим с моделями: http://127.0.0.1:8000 (нужен .env)
 python -m pipeline.build_demo --reuse-letters   # пересобрать демо, письма взять из прошлой сборки
 python -m pipeline.build_demo   # пересобрать с новыми письмами (нужен GIGACHAT_CA_BUNDLE, см. .env.example)
-python tools/survey_results.py <выгрузка Яндекс Форм> --paid 100  # итоги опроса в docs/research/custdev и на слайд 5
+python tools/update_survey.py <выгрузка Яндекс Форм> --paid 100  # итоги опроса, слайд 7, pptx и pdf
 python tools/build_finmodel.py  # пересобрать docs/finance/financial_model.xlsx
 python tools/build_deck.py  # презентация спринта 1: «ПРЕЗЕНТАЦИЯ ОПЛАТА ВОВРЕМЯ.pptx», текст питча docs/pitch_script.md
 ```

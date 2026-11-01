@@ -69,7 +69,7 @@ python -m pipeline.build_demo --reuse-letters   # пересобрать дем�
 python -m pipeline.build_demo   # пересобрать с новыми письмами (нужен GIGACHAT_CA_BUNDLE, см. .env.example)
 python tools/survey_results.py <выгрузка Яндекс Форм> --paid 100  # итоги опроса в docs/research/custdev и на слайд 5
 python tools/build_finmodel.py  # пересобрать docs/finance/financial_model.xlsx
-python tools/build_deck.py  # презентация спринта 1: presentation.pptx, текст питча docs/pitch_script.md
+python tools/build_deck.py  # презентация спринта 1: «ПРЕЗЕНТАЦИЯ ОПЛАТА ВОВРЕМЯ.pptx», текст питча docs/pitch_script.md
 ```
 
 Ключи: скопируй `.env.example` в `.env`. Значения ключей Иван передаёт отдельно (файл `ключи_для_Миши.env`).

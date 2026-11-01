@@ -1,0 +1,8 @@
+# Пайплайн и локальный сервер живого режима (Python 3.11+)
+httpx>=0.27
+numpy>=1.26
+scikit-learn>=1.4
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+pytest>=8

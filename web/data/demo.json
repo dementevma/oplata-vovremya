@@ -1,0 +1,3825 @@
+{
+ "meta": {
+  "built_at": "2026-10-31T15:38:19",
+  "demo_date": "2026-10-28",
+  "jev_model": "jev-1.13.0",
+  "llm_model": "GigaChat-2",
+  "note": "Компании и переписка вымышлены. Ответы Jev и GigaChat получены заранее и сохранены в этот файл."
+ },
+ "supplier": {
+  "name": "ООО «Вектор Проект»",
+  "inn": "7704123450",
+  "sector": "Проектирование и инженерные услуги",
+  "monthly_revenue": 6200000,
+  "monthly_outflows": 5100000,
+  "cash_on_hand": 450000,
+  "bank": "ВТБ",
+  "kpp": "770401001",
+  "account": "40702810900000001234",
+  "bik": "044525999",
+  "corr": "30101810600000000999",
+  "bank_name": "Демо-банк"
+ },
+ "clients": {
+  "7701234560": {
+   "name": "ООО «Северный проект»",
+   "sector": "Девелопмент",
+   "contact": "Ольга Миронова, бухгалтер",
+   "history": {
+    "invoices": 14,
+    "late_share": 0.21,
+    "avg_delay": 4
+   },
+   "inn": "7701234560",
+   "kpp": "770101001"
+  },
+  "7712345671": {
+   "name": "АО «Бюро Кедр»",
+   "sector": "Архитектура",
+   "contact": "Павел Лесков, финансовый менеджер",
+   "history": {
+    "invoices": 9,
+    "late_share": 0.33,
+    "avg_delay": 7
+   },
+   "inn": "7712345671",
+   "kpp": "771201001"
+  },
+  "5003456785": {
+   "name": "ООО «Линия пространства»",
+   "sector": "Ритейл",
+   "contact": "Ирина Шубина, руководитель проекта",
+   "history": {
+    "invoices": 6,
+    "late_share": 0.5,
+    "avg_delay": 12
+   },
+   "inn": "5003456785",
+   "kpp": "500301001"
+  },
+  "7724567894": {
+   "name": "ООО «Форма»",
+   "sector": "Строительство",
+   "contact": "Дмитрий Гусев, директор",
+   "history": {
+    "invoices": 11,
+    "late_share": 0.64,
+    "avg_delay": 23
+   },
+   "inn": "7724567894",
+   "kpp": ""
+  },
+  "6655678905": {
+   "name": "ООО «Мастерская 12»",
+   "sector": "Дизайн интерьеров",
+   "contact": "Анна Белова, офис-менеджер",
+   "history": {
+    "invoices": 5,
+    "late_share": 0.2,
+    "avg_delay": 2
+   },
+   "inn": "6655678905",
+   "kpp": ""
+  },
+  "7736789010": {
+   "name": "ООО «Атлас Девелопмент»",
+   "sector": "Девелопмент",
+   "contact": "Сергей Котов, казначей",
+   "history": {
+    "invoices": 18,
+    "late_share": 0.11,
+    "avg_delay": 2
+   },
+   "inn": "7736789010",
+   "kpp": ""
+  },
+  "7457890122": {
+   "name": "АО «Уралстройинвест»",
+   "sector": "Строительство",
+   "contact": "Елена Сафина, главный бухгалтер",
+   "history": {
+    "invoices": 7,
+    "late_share": 0.43,
+    "avg_delay": 15
+   },
+   "inn": "7457890122",
+   "kpp": "745801001"
+  },
+  "7808901231": {
+   "name": "ООО «Невская логистика»",
+   "sector": "Логистика",
+   "contact": "Игорь Ветров, закупки",
+   "history": {
+    "invoices": 4,
+    "late_share": 0.25,
+    "avg_delay": 6
+   },
+   "inn": "7808901231",
+   "kpp": ""
+  },
+  "5409012340": {
+   "name": "ООО «Сибирь Агро»",
+   "sector": "Агропром",
+   "contact": "Марина Ким, бухгалтер",
+   "history": {
+    "invoices": 8,
+    "late_share": 0.38,
+    "avg_delay": 9
+   },
+   "inn": "5409012340",
+   "kpp": "540901001"
+  },
+  "1650123450": {
+   "name": "ООО «Камский терминал»",
+   "sector": "Промышленность",
+   "contact": "Рустам Хайруллин, финансовый директор",
+   "history": {
+    "invoices": 10,
+    "late_share": 0.3,
+    "avg_delay": 8
+   },
+   "inn": "1650123450",
+   "kpp": ""
+  },
+  "7743234562": {
+   "name": "ООО «Городские решения»",
+   "sector": "Госзаказ (223-ФЗ)",
+   "contact": "Татьяна Орлова, контрактная служба",
+   "history": {
+    "invoices": 6,
+    "late_share": 0.5,
+    "avg_delay": 11
+   },
+   "inn": "7743234562",
+   "kpp": ""
+  },
+  "2310345672": {
+   "name": "ООО «Южный берег»",
+   "sector": "Гостиничный бизнес",
+   "contact": "Виктор Андреев, управляющий",
+   "history": {
+    "invoices": 3,
+    "late_share": 0.67,
+    "avg_delay": 31
+   },
+   "inn": "2310345672",
+   "kpp": ""
+  },
+  "7814456780": {
+   "name": "ООО «Балтика Сервис»",
+   "sector": "Сервис",
+   "contact": "Ксения Лаптева, бухгалтер",
+   "history": {
+    "invoices": 12,
+    "late_share": 0.08,
+    "avg_delay": 1
+   },
+   "inn": "7814456780",
+   "kpp": ""
+  },
+  "6316567894": {
+   "name": "ООО «Волга Медиа»",
+   "sector": "Медиа",
+   "contact": "Никита Зуев, продюсер",
+   "history": {
+    "invoices": 5,
+    "late_share": 0.4,
+    "avg_delay": 10
+   },
+   "inn": "6316567894",
+   "kpp": ""
+  }
+ },
+ "registry": {
+  "7724567894": {
+   "flags": [
+    "Иск о взыскании долга от другого поставщика (А40-…/2026)",
+    "Снижение выручки 2025 к 2024 на 38%"
+   ],
+   "level": "high"
+  },
+  "2310345672": {
+   "flags": [
+    "Сообщение о намерении кредитора обратиться с заявлением о банкротстве (Федресурс)"
+   ],
+   "level": "critical"
+  },
+  "7457890122": {
+   "flags": [
+    "Два арбитражных дела в роли ответчика за 12 месяцев"
+   ],
+   "level": "medium"
+  },
+  "5003456785": {
+   "flags": [],
+   "level": "low"
+  }
+ },
+ "invoices": [
+  {
+   "id": "1042",
+   "inn": "7701234560",
+   "amount": 184000,
+   "paid": 0,
+   "issued": "2026-09-19",
+   "due": "2026-10-04",
+   "owner": "Анна",
+   "docs": {
+    "act": "sent",
+    "edo": false
+   },
+   "label": "documents",
+   "messages": [
+    {
+     "date": "2026-10-02",
+     "from": "us",
+     "text": "Добрый день! Направляем счёт № 1042 и акт за сентябрь по договору проектирования."
+    },
+    {
+     "date": "2026-10-07",
+     "from": "client",
+     "text": "Не получили подписанный с вашей стороны акт за сентябрь. Пришлите, пожалуйста, оригинал или через ЭДО — без него бухгалтерия не сможет провести оплату."
+    }
+   ]
+  },
+  {
+   "id": "1057",
+   "inn": "7457890122",
+   "amount": 612000,
+   "paid": 0,
+   "issued": "2026-09-25",
+   "due": "2026-10-10",
+   "owner": "Иван",
+   "docs": {
+    "act": "rejected",
+    "edo": true
+   },
+   "label": "documents",
+   "messages": [
+    {
+     "date": "2026-10-12",
+     "from": "client",
+     "text": "УПД отклонён в Диадоке: в документе указан старый КПП нашей организации, с 1 сентября он изменился. Переоформите УПД, и мы поставим оплату в ближайший платёжный день."
+    }
+   ]
+  },
+  {
+   "id": "1061",
+   "inn": "7808901231",
+   "amount": 96500,
+   "paid": 0,
+   "issued": "2026-10-01",
+   "due": "2026-10-16",
+   "owner": "Михаил",
+   "docs": {
+    "act": "sent",
+    "edo": false
+   },
+   "label": "documents",
+   "messages": [
+    {
+     "date": "2026-10-20",
+     "from": "client",
+     "text": "Игорь, привет. По счёту всё ок, но к нему нет счёта-фактуры, а мы на ОСНО. Как появится — оплатим."
+    }
+   ]
+  },
+  {
+   "id": "1045",
+   "inn": "5003456785",
+   "amount": 245000,
+   "paid": 0,
+   "issued": "2026-09-24",
+   "due": "2026-10-09",
+   "owner": "Анна",
+   "docs": {
+    "act": "sent",
+    "edo": true
+   },
+   "label": "dispute",
+   "messages": [
+    {
+     "date": "2026-10-10",
+     "from": "client",
+     "text": "В счёте указано 245 000 рублей, а по договору и допсоглашению № 2 стоимость этапа 240 000. Уточните сумму и пришлите исправленный счёт."
+    }
+   ]
+  },
+  {
+   "id": "1063",
+   "inn": "6316567894",
+   "amount": 138000,
+   "paid": 0,
+   "issued": "2026-10-03",
+   "due": "2026-10-18",
+   "owner": "Иван",
+   "docs": {
+    "act": "sent",
+    "edo": false
+   },
+   "label": "dispute",
+   "messages": [
+    {
+     "date": "2026-10-19",
+     "from": "client",
+     "text": "Мы пока не можем принять работу: в макетах не учтены правки от 30 сентября, раздел 3 сделан по старому ТЗ. Пока замечания не исправлены, акт подписывать не будем."
+    }
+   ]
+  },
+  {
+   "id": "1066",
+   "inn": "1650123450",
+   "amount": 420000,
+   "paid": 210000,
+   "issued": "2026-09-30",
+   "due": "2026-10-15",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "dispute",
+   "messages": [
+    {
+     "date": "2026-10-16",
+     "from": "client",
+     "text": "Оплатили 50% по факту выполненного объёма. Вторую половину удерживаем: по нашим данным, выезд инженера 8 октября не состоялся, а в акте он есть. Готовы обсудить на созвоне."
+    }
+   ]
+  },
+  {
+   "id": "1031",
+   "inn": "7724567894",
+   "amount": 372000,
+   "paid": 0,
+   "issued": "2026-09-15",
+   "due": "2026-10-01",
+   "owner": "Иван",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "liquidity",
+   "messages": [
+    {
+     "date": "2026-10-08",
+     "from": "client",
+     "text": "У нас временный кассовый разрыв, заказчик задерживает нам деньги по объекту. Сейчас оплатить не можем. Вернёмся с предложением по графику."
+    },
+    {
+     "date": "2026-10-22",
+     "from": "us",
+     "text": "Дмитрий, добрый день! Напоминаем про счёт № 1031. Готовы обсудить график."
+    }
+   ]
+  },
+  {
+   "id": "1049",
+   "inn": "2310345672",
+   "amount": 158000,
+   "paid": 0,
+   "issued": "2026-08-28",
+   "due": "2026-09-12",
+   "owner": "Анна",
+   "docs": {
+    "act": "signed",
+    "edo": false
+   },
+   "label": "liquidity",
+   "messages": [
+    {
+     "date": "2026-09-20",
+     "from": "client",
+     "text": "Сезон закрыли хуже, чем планировали. Денег на счетах сейчас нет, оплатим, как только будут поступления."
+    }
+   ]
+  },
+  {
+   "id": "1052",
+   "inn": "7743234562",
+   "amount": 530000,
+   "paid": 0,
+   "issued": "2026-10-01",
+   "due": "2026-10-14",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "approval",
+   "messages": [
+    {
+     "date": "2026-10-15",
+     "from": "client",
+     "text": "Документы приняты, всё в порядке. Платёж стоит в реестре на согласовании у финансового директора, он в отпуске до 30 октября. Ориентируем на первую неделю ноября."
+    }
+   ]
+  },
+  {
+   "id": "1058",
+   "inn": "7736789010",
+   "amount": 760000,
+   "paid": 0,
+   "issued": "2026-10-06",
+   "due": "2026-10-21",
+   "owner": "Иван",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "approval",
+   "messages": [
+    {
+     "date": "2026-10-22",
+     "from": "client",
+     "text": "Счёт передали в казначейство. У нас платёжный календарь формируется по четвергам, ваш платёж попадёт в реестр 30.10.2026."
+    }
+   ]
+  },
+  {
+   "id": "1054",
+   "inn": "5409012340",
+   "amount": 87400,
+   "paid": 0,
+   "issued": "2026-10-02",
+   "due": "2026-10-17",
+   "owner": "Анна",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "details",
+   "messages": [
+    {
+     "date": "2026-10-21",
+     "from": "client",
+     "text": "Платёж от 18 октября вернулся банком: счёт получателя не найден. Похоже, в счёте опечатка в номере расчётного счёта. Пришлите актуальные реквизиты письмом за подписью."
+    }
+   ]
+  },
+  {
+   "id": "1064",
+   "inn": "7814456780",
+   "amount": 54000,
+   "paid": 0,
+   "issued": "2026-10-08",
+   "due": "2026-10-23",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "details",
+   "messages": [
+    {
+     "date": "2026-10-24",
+     "from": "client",
+     "text": "Банк не пропускает платёж: в счёте у вас БИК старого отделения. Уточните, на какие реквизиты платить?"
+    }
+   ]
+  },
+  {
+   "id": "1048",
+   "inn": "6655678905",
+   "amount": 128000,
+   "paid": 0,
+   "issued": "2026-10-01",
+   "due": "2026-10-15",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": false
+   },
+   "label": "silence",
+   "messages": [
+    {
+     "date": "2026-10-16",
+     "from": "us",
+     "text": "Анна, добрый день! Срок оплаты по счёту № 1048 наступил вчера. Подскажите, пожалуйста, статус."
+    },
+    {
+     "date": "2026-10-23",
+     "from": "us",
+     "text": "Анна, напоминаем про счёт № 1048 на 128 000 ₽. Если что-то не так с документами — дайте знать."
+    }
+   ]
+  },
+  {
+   "id": "1039",
+   "inn": "7712345671",
+   "amount": 96000,
+   "paid": 30000,
+   "issued": "2026-09-22",
+   "due": "2026-10-07",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "silence",
+   "messages": [
+    {
+     "date": "2026-10-09",
+     "from": "client",
+     "text": "Первую часть 30 000 рублей перечислили. Остаток оплатим 15.10.2026."
+    },
+    {
+     "date": "2026-10-20",
+     "from": "us",
+     "text": "Павел, добрый день! Остаток 66 000 ₽ пока не поступил. Подтвердите, пожалуйста, новую дату."
+    }
+   ]
+  },
+  {
+   "id": "1070",
+   "inn": "1650123450",
+   "amount": 198000,
+   "paid": 0,
+   "issued": "2026-10-09",
+   "due": "2026-10-24",
+   "owner": "Анна",
+   "docs": {
+    "act": "sent",
+    "edo": true
+   },
+   "label": "silence",
+   "messages": [
+    {
+     "date": "2026-10-25",
+     "from": "us",
+     "text": "Рустам, добрый день! Срок оплаты по счёту № 1070 был 24 октября. Подскажите, всё ли в порядке с документами?"
+    }
+   ]
+  },
+  {
+   "id": "1044",
+   "inn": "7701234560",
+   "amount": 215000,
+   "paid": 0,
+   "issued": "2026-09-30",
+   "due": "2026-10-15",
+   "owner": "Анна",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "paid",
+   "messages": [
+    {
+     "date": "2026-10-16",
+     "from": "client",
+     "text": "Оплату по счёту 1044 провели вчера одним платёжным поручением вместе со счётом 1047, проверьте поступление."
+    }
+   ]
+  },
+  {
+   "id": "1056",
+   "inn": "7808901231",
+   "amount": 64000,
+   "paid": 0,
+   "issued": "2026-10-03",
+   "due": "2026-10-18",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": false
+   },
+   "label": "paid",
+   "messages": [
+    {
+     "date": "2026-10-19",
+     "from": "client",
+     "text": "Деньги ушли 17-го, п/п № 4412. В назначении платежа по ошибке указали номер договора вместо номера счёта, извините."
+    }
+   ]
+  },
+  {
+   "id": "1067",
+   "inn": "5409012340",
+   "amount": 143000,
+   "paid": 0,
+   "issued": "2026-10-06",
+   "due": "2026-10-21",
+   "owner": "Иван",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "approval",
+   "messages": [
+    {
+     "date": "2026-10-08",
+     "from": "client",
+     "text": "Акт получили, вопросов по документам нет."
+    },
+    {
+     "date": "2026-10-23",
+     "from": "client",
+     "text": "Деньги есть, дело не в этом: по регламенту платежи свыше 100 тысяч согласует собственник, а он вернётся из командировки только в среду."
+    }
+   ]
+  },
+  {
+   "id": "1069",
+   "inn": "7457890122",
+   "amount": 286000,
+   "paid": 0,
+   "issued": "2026-10-07",
+   "due": "2026-10-22",
+   "owner": "Михаил",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "liquidity",
+   "messages": [
+    {
+     "date": "2026-10-09",
+     "from": "client",
+     "text": "Не получили акт, пришлите, пожалуйста."
+    },
+    {
+     "date": "2026-10-10",
+     "from": "us",
+     "text": "Направили акт через Диадок, подпишите, пожалуйста."
+    },
+    {
+     "date": "2026-10-24",
+     "from": "client",
+     "text": "Акт подписали. С оплатой придётся подождать: банк заморозил нам кредитную линию, сейчас платим только налоги и зарплату."
+    }
+   ]
+  },
+  {
+   "id": "1071",
+   "inn": "7743234562",
+   "amount": 312000,
+   "paid": 0,
+   "issued": "2026-10-10",
+   "due": "2026-10-24",
+   "owner": "Иван",
+   "docs": {
+    "act": "sent",
+    "edo": true
+   },
+   "label": "documents",
+   "messages": [
+    {
+     "date": "2026-10-26",
+     "from": "client",
+     "text": "Для оплаты по 223-ФЗ нам нужен документ о приёмке в ЕИС, а вы прислали только акт в свободной форме. Подготовьте, пожалуйста, документ по форме из приложения 4 к договору."
+    }
+   ]
+  },
+  {
+   "id": "1073",
+   "inn": "7736789010",
+   "amount": 540000,
+   "paid": 0,
+   "issued": "2026-10-20",
+   "due": "2026-11-04",
+   "owner": "Анна",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "none",
+   "messages": []
+  },
+  {
+   "id": "1074",
+   "inn": "7814456780",
+   "amount": 72000,
+   "paid": 0,
+   "issued": "2026-10-22",
+   "due": "2026-11-06",
+   "owner": "Михаил",
+   "docs": {
+    "act": "sent",
+    "edo": true
+   },
+   "label": "none",
+   "messages": []
+  },
+  {
+   "id": "1075",
+   "inn": "7712345671",
+   "amount": 233000,
+   "paid": 0,
+   "issued": "2026-10-23",
+   "due": "2026-11-07",
+   "owner": "Иван",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "none",
+   "messages": []
+  },
+  {
+   "id": "1076",
+   "inn": "1650123450",
+   "amount": 455000,
+   "paid": 0,
+   "issued": "2026-10-26",
+   "due": "2026-11-10",
+   "owner": "Анна",
+   "docs": {
+    "act": "not_sent",
+    "edo": true
+   },
+   "label": "none",
+   "messages": []
+  },
+  {
+   "id": "1029",
+   "inn": "7736789010",
+   "amount": 54000,
+   "paid": 54000,
+   "issued": "2026-09-12",
+   "due": "2026-09-27",
+   "owner": "Иван",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "none",
+   "messages": [
+    {
+     "date": "2026-09-26",
+     "from": "client",
+     "text": "Спасибо, платёж отправили. Все документы закрыты."
+    }
+   ]
+  },
+  {
+   "id": "1047",
+   "inn": "7701234560",
+   "amount": 98000,
+   "paid": 0,
+   "issued": "2026-09-30",
+   "due": "2026-10-15",
+   "owner": "Анна",
+   "docs": {
+    "act": "signed",
+    "edo": true
+   },
+   "label": "paid",
+   "messages": []
+  }
+ ],
+ "statement": [
+  {
+   "date": "2026-10-15",
+   "num": "7781",
+   "payer": "ООО «Северный проект»",
+   "payer_inn": "7701234560",
+   "amount": 313000,
+   "purpose": "Оплата по счетам 1044, 1047 от 30.09.2026 за проектные работы. В т.ч. НДС 20%"
+  },
+  {
+   "date": "2026-10-17",
+   "num": "4412",
+   "payer": "ООО «Невская логистика»",
+   "payer_inn": "7808901231",
+   "amount": 64000,
+   "purpose": "Оплата по договору № НЛ-14/26 от 12.03.2026 за услуги. НДС не облагается"
+  },
+  {
+   "date": "2026-10-16",
+   "num": "2290",
+   "payer": "ООО «Камский терминал»",
+   "payer_inn": "1650123450",
+   "amount": 210000,
+   "purpose": "Частичная оплата по сч. 1066 от 30.09.2026 (50%)",
+   "posted": true
+  },
+  {
+   "date": "2026-10-09",
+   "num": "1203",
+   "payer": "АО «Бюро Кедр»",
+   "payer_inn": "7712345671",
+   "amount": 30000,
+   "purpose": "Аванс по счёту №1039",
+   "posted": true
+  },
+  {
+   "date": "2026-09-26",
+   "num": "0937",
+   "payer": "ООО «Атлас Девелопмент»",
+   "payer_inn": "7736789010",
+   "amount": 54000,
+   "purpose": "Оплата сч 1029 от 12.09.26",
+   "posted": true
+  },
+  {
+   "date": "2026-10-24",
+   "num": "5120",
+   "payer": "ИП Соколов Андрей Викторович",
+   "payer_inn": "772812345678",
+   "amount": 18500,
+   "purpose": "Оплата за консультацию"
+  }
+ ],
+ "outflows": [
+  {
+   "week": 0,
+   "amount": 420000,
+   "what": "Субподрядчик (этап 2)"
+  },
+  {
+   "week": 1,
+   "amount": 1650000,
+   "what": "Зарплата и НДФЛ"
+  },
+  {
+   "week": 1,
+   "amount": 600000,
+   "what": "Лизинг и платёж по кредиту"
+  },
+  {
+   "week": 2,
+   "amount": 380000,
+   "what": "Аренда и сервисы"
+  },
+  {
+   "week": 3,
+   "amount": 900000,
+   "what": "НДС за III квартал"
+  },
+  {
+   "week": 4,
+   "amount": 260000,
+   "what": "Субподрядчик"
+  },
+  {
+   "week": 5,
+   "amount": 1650000,
+   "what": "Зарплата и НДФЛ"
+  },
+  {
+   "week": 6,
+   "amount": 380000,
+   "what": "Аренда и сервисы"
+  },
+  {
+   "week": 7,
+   "amount": 300000,
+   "what": "Прочее"
+  }
+ ],
+ "causes": {
+  "documents": {
+   "ru": "Не хватает документа или в нём ошибка",
+   "short": "Документы",
+   "en": "Client is waiting for a missing or corrected closing document from the supplier (act, UPD, invoice-factura, acceptance form)",
+   "fixable": true,
+   "action": "Исправить и отправить документ через ЭДО",
+   "why": "Деньги у клиента есть, оплату держит бумага. Это самая быстрая к устранению причина."
+  },
+  "dispute": {
+   "ru": "Спор по сумме, объёму или качеству",
+   "short": "Спор",
+   "en": "Client disputes the amount, scope or quality of work and withholds payment until resolved",
+   "fixable": true,
+   "action": "Сверить с договором и согласовать позицию",
+   "why": "Пока разногласие не снято, напоминания не помогут: нужен разговор по существу."
+  },
+  "liquidity": {
+   "ru": "У клиента нет денег",
+   "short": "Нет денег",
+   "en": "Client has no money or liquidity problems and cannot pay now",
+   "fixable": false,
+   "action": "Договориться о графике и оценить риск",
+   "why": "Документами не исправить. Важно зафиксировать график и не наращивать долг."
+  },
+  "approval": {
+   "ru": "Платёж на согласовании у клиента",
+   "short": "Согласование",
+   "en": "Payment is stuck in the client's internal approval or treasury schedule; documents are accepted",
+   "fixable": false,
+   "action": "Зафиксировать дату реестра и проконтролировать",
+   "why": "Деньги и документы в порядке, нужна дата и контроль, без давления."
+  },
+  "details": {
+   "ru": "Ошибка в реквизитах или платёж вернулся",
+   "short": "Реквизиты",
+   "en": "Payment failed or is blocked because of wrong bank details of the supplier",
+   "fixable": true,
+   "action": "Отправить верные реквизиты и платёжную ссылку",
+   "why": "Клиент хочет заплатить, но не может. Исправляется за минуты."
+  },
+  "silence": {
+   "ru": "Клиент молчит или забыл",
+   "short": "Нет ответа",
+   "en": "Client does not respond, forgot, or broke a promised payment date without explanation",
+   "fixable": true,
+   "action": "Напомнить с платёжной ссылкой, затем позвонить",
+   "why": "Причина неизвестна. Нужен контакт, который снимет вопрос или выявит настоящую причину."
+  },
+  "paid": {
+   "ru": "Оплачено, но не сверено",
+   "short": "Уже оплачено",
+   "en": "Client says the invoice is already paid (payment sent) but the supplier has not matched it",
+   "fixable": true,
+   "action": "Найти платёж в выписке и закрыть счёт",
+   "why": "Долга может не быть. Напоминание в такой ситуации портит отношения."
+  }
+ },
+ "analysis": {
+  "1042": {
+   "id": "1042",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1578,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "documents",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 1.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.92
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.31
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.03
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.15
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.66,
+      "confidence": 0.73,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.0,
+       "3": 0.32,
+       "4": 0.68
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 957,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 1,
+     "choice": "documents",
+     "confidence": 1.0,
+     "p": {
+      "documents": 1.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Повторная отправка акта и требование оплатить счёт",
+    "body": "Добрый день, Ольга Миронова! К нашему предыдущему письму от 2026-10-02 прилагаем исправленный акт выполненных работ за сентябрь по договору проектирования. Просим Вас подписать его и направить нам обратно через ЭДО. После получения оригинала акта сможем принять к учёту Ваш платёж по счёту № 1042 от 2026-10-04 на сумму 184 000 ₽.",
+    "summary": "Отправлен исправленный акт для подписи и оплаты счёта",
+    "promised_date": "null",
+    "client_asks": "ничего",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1057": {
+   "id": "1057",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1559,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "documents",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 1.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.94
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.76
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.02
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.2
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.49,
+      "confidence": 0.57,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.49,
+       "4": 0.5
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 923,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "documents",
+     "confidence": 1.0,
+     "p": {
+      "documents": 1.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Просьба переоформить УПД по счёту № 1057",
+    "body": "Уважаемая Елена Сафина! На основании Вашего обращения от 2026-10-12 сообщаем, что счёт № 1057 на сумму 612 000 ₽ требует переоформления универсального передаточного документа из-за неверного КПП. Просим Вас как можно скорее предоставить нам исправленный документ через ЭДО. После получения документа сможем подтвердить дату оплаты.",
+    "summary": "Необходимость переоформления УПД по счёту № 1057",
+    "promised_date": "null",
+    "client_asks": "ничего",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1061": {
+   "id": "1061",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1626,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "documents",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 1.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.92
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.93
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.09
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.13
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.08,
+      "confidence": 0.73,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.02,
+       "2": 0.08,
+       "3": 0.7,
+       "4": 0.2
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 868,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "documents",
+     "confidence": 1.0,
+     "p": {
+      "documents": 1.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление по счёту № 1061 от 2026-10-16",
+    "body": "Добрый день, Игорь. К счёту № 1061 от 2026-10-16, пожалуйста, приложите счёт-фактуру. После получения документа сможем оперативно провести оплату. Благодарим за понимание.",
+    "summary": "Просьба предоставить счёт-фактуру для оплаты счёта № 1061",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1045": {
+   "id": "1045",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1538,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "dispute",
+      "confidence": 0.99,
+      "probabilities": {
+       "documents": 0.01,
+       "dispute": 0.99,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.91
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.94
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.38,
+      "confidence": 0.54,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.01,
+       "1": 0.01,
+       "2": 0.04,
+       "3": 0.48,
+       "4": 0.46
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 895,
+     "output_tokens": 171
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "dispute",
+     "confidence": 0.95,
+     "p": {
+      "documents": 0.04,
+      "dispute": 0.96,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уточнение суммы по счёту № 1045",
+    "body": "Уважаемая Ирина Шубина! Благодарим за обращение. Согласно нашему диалогу, требуется сверка суммы по договору и допсоглашению № 2. Просим Вас подтвердить удобную для Вас дату согласования позиции и последующей оплаты.",
+    "summary": "Спор по сумме счета, требуется согласование позиции и подтверждение даты оплаты",
+    "promised_date": "null",
+    "client_asks": null,
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1063": {
+   "id": "1063",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1307,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "dispute",
+      "confidence": 0.73,
+      "probabilities": {
+       "documents": 0.23,
+       "dispute": 0.77,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.87
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.56
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.02
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.95
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.48,
+      "confidence": 0.57,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.49,
+       "4": 0.5
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 889,
+     "output_tokens": 171
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "dispute",
+     "confidence": 0.54,
+     "p": {
+      "documents": 0.4,
+      "dispute": 0.6,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уточнение по оплате счёта № 1063",
+    "body": "Добрый день, Никита! Благодарим за ваше сообщение от 19 октября. Просим Вас уточнить возможную дату оплаты счёта № 1063 на сумму 138 000 ₽. Также необходимо свериться с договором относительно спорных моментов по разделу 3 макета. Пожалуйста, подтвердите удобную для Вас дату согласования.",
+    "summary": "Просьба уточнить дату оплаты и согласовать позиции по договору",
+    "promised_date": "null",
+    "client_asks": "дата согласования",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1066": {
+   "id": "1066",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1387,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "dispute",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 1.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.7
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.11
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.12
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.95
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.02,
+      "confidence": 0.84,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.01,
+       "2": 0.07,
+       "3": 0.82,
+       "4": 0.1
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 942,
+     "output_tokens": 171
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "dispute",
+     "confidence": 0.99,
+     "p": {
+      "documents": 0.01,
+      "dispute": 0.99,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уточнение по оплате счёта № 1066",
+    "body": "Добрый день, Рустам! Благодарим за разъяснение по факту выполнения работ. Нам необходимо сверить информацию по выезду инженера 8 октября с условиями нашего договора. Просьба уточнить, удобно ли будет Вам обсудить данный вопрос по телефону сегодня до 17:00 или предложить другую удобную для Вас дату.",
+    "summary": "Просят уточнить детали по выезду инженера и согласовать следующую встречу",
+    "promised_date": "null",
+    "client_asks": "удобная дата для обсуждения",
+    "invalid_numbers": [
+     "17"
+    ],
+    "model": "GigaChat-2"
+   }
+  },
+  "1031": {
+   "id": "1031",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1260,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "liquidity",
+      "confidence": 0.86,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.88,
+       "approval": 0.01,
+       "details": 0.0,
+       "silence": 0.11,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.16
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.07
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.83
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.34
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.09
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.09,
+      "confidence": 0.77,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.01,
+       "2": 0.08,
+       "3": 0.73,
+       "4": 0.18
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 974,
+     "output_tokens": 172
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "liquidity",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 1.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уточнение графика оплаты по счёту № 1031",
+    "body": "Дмитрий, добрый день! Благодарим за ваше предыдущее сообщение. Просим уточнить возможную дату первой выплаты по счёту № 1031. Это поможет нам лучше спланировать наши операции. С уважением, ООО «Вектор Проект»",
+    "summary": "Просим клиента уточнить дату первой выплаты по счёту № 1031",
+    "promised_date": "null",
+    "client_asks": "ничего",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1049": {
+   "id": "1049",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1230,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "liquidity",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 1.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.21
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.77
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.82
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.36
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.22
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.7,
+      "confidence": 0.76,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.27,
+       "4": 0.72
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 870,
+     "output_tokens": 172
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "liquidity",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 1.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление об остатке по счёту № 1049",
+    "body": "Добрый день, Виктор Андреев. Счёт № 1049 на сумму 158 000 ₽ пока не оплачен. Просим согласовать удобный график платежей. Пожалуйста, подтвердите планируемую дату оплаты.",
+    "summary": "Просьба согласовать график и дату оплаты по счёту № 1049",
+    "promised_date": "null",
+    "client_asks": "планируемая дата оплаты",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1052": {
+   "id": "1052",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1343,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "approval",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 1.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.1
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.65
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.07
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.98
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "urgency": {
+      "type": "score",
+      "score": 2.3,
+      "confidence": 0.32,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.02,
+       "1": 0.21,
+       "2": 0.28,
+       "3": 0.43,
+       "4": 0.06
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 902,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "approval",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 1.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление по счёту № 1052 от 2026-10-14",
+    "body": "Уважаемая Татьяна Орлова! На сегодняшний день счёт № 1052 на сумму 530 000 ₽ всё ещё ожидает согласования финансовым директором ООО «Городские решения». Счёт был принят без замечаний. Просим Вас подтвердить ориентировочную дату оплаты после согласования.",
+    "summary": "Финансовый директор клиента находится в отпуске, ожидаемся оплата после его возвращения.",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1058": {
+   "id": "1058",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1236,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "approval",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 1.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.2
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.89
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.06
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.41
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.07
+     },
+     "urgency": {
+      "type": "score",
+      "score": 1.27,
+      "confidence": 0.47,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.19,
+       "1": 0.49,
+       "2": 0.2,
+       "3": 0.11,
+       "4": 0.01
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 911,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "approval",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 1.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление о дате реестра платежей",
+    "body": "Добрый день, Сергей! Благодарим за информацию о формировании платёжного календаря. Подтверждаем получение Вашей даты — 30.10.2026. Просим Вас дополнительно уведомить нас о фактической дате оплаты по счёту №1058 от 2026-10-21.",
+    "summary": "Фиксируем дату реестра платежей клиента и просим подтвердить дату оплаты счета",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1054": {
+   "id": "1054",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1279,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "details",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 1.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.93
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.09
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.16
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.1
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.52,
+      "confidence": 0.6,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.46,
+       "4": 0.53
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 936,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "details",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 1.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Повторная отправка реквизитов и платёжной ссылки по счёту № 1054",
+    "body": "Уважаемая Марина Ким! В связи с возвратом платежа по счёту № 1054 от 18-10-2026 просим Вас принять к сведению приложенные актуальные реквизиты компании и платёжную ссылку. Просим Вас оплатить счёт в кратчайшие сроки. Благодарим за понимание.",
+    "summary": "Отправлены правильные реквизиты и платёжная ссылка по неоплаченному счёту № 1054",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1064": {
+   "id": "1064",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1244,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "details",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 1.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.91
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.07
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.11
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.21
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.56,
+      "confidence": 0.63,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.42,
+       "4": 0.57
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 873,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "details",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 1.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Повторная отправка счета и реквизитов",
+    "body": "Уважаемая Ксения Лаптева! К сожалению, мы обнаружили ошибку в предыдущих реквизитах. Приложены актуальные реквизиты и ссылка для оплаты по счету №1064 от 2026-10-23 на сумму 54 000 ₽. Просим Вас оплатить до удобной для Вас даты и подтвердить факт оплаты.",
+    "summary": "Отправлены верные реквизиты и просьба об оплате и подтверждении платежа",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1048": {
+   "id": "1048",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1244,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "silence",
+      "confidence": 0.96,
+      "probabilities": {
+       "documents": 0.02,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.01,
+       "details": 0.0,
+       "silence": 0.97,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.36
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.06
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.11
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.2
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.45,
+      "confidence": 0.6,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.52,
+       "4": 0.47
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 949,
+     "output_tokens": 171
+    }
+   },
+   "messages": [],
+   "llm": {
+    "subject": "Уважаемая Анна Белова, просьба оплатить счёт № 1048",
+    "body": "Уважаемая Анна Белова, напоминаем о неоплаченном счёте № 1048 от 2026-10-15 на сумму 128 000 ₽. Пожалуйста, перейдите по ссылке для оплаты: https://example.com/pay/1048. Укажите планируемую дату оплаты.",
+    "summary": "Просьба оплатить счёт и указать дату оплаты",
+    "promised_date": "null",
+    "client_asks": null,
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1039": {
+   "id": "1039",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1284,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "silence",
+      "confidence": 0.99,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.01,
+       "details": 0.0,
+       "silence": 0.99,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.28
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.95
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.09
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.32
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.12
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.07,
+      "confidence": 0.83,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.06,
+       "3": 0.8,
+       "4": 0.14
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 932,
+     "output_tokens": 171
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "none",
+     "confidence": 0.91,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.01,
+      "approval": 0.05,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.02,
+      "none": 0.92
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Подтверждение даты оплаты по счёту № 1039",
+    "body": "Павел, добрый день! Счёт № 1039 на сумму 66 000 ₽ всё ещё ожидает оплаты. Пожалуйста, подтвердите удобную для Вас дату или воспользуйтесь прикреплённой платёжной ссылкой.",
+    "summary": "Ожидаем подтверждения даты оплаты остатка по счёту",
+    "promised_date": "null",
+    "client_asks": "null",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1070": {
+   "id": "1070",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1362,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "silence",
+      "confidence": 0.79,
+      "probabilities": {
+       "documents": 0.17,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.01,
+       "details": 0.0,
+       "silence": 0.82,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.45
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.06
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.09
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.14
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.06,
+      "confidence": 0.77,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.01,
+       "2": 0.08,
+       "3": 0.74,
+       "4": 0.17
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 880,
+     "output_tokens": 171
+    }
+   },
+   "messages": [],
+   "llm": {
+    "subject": "Уведомление об оплате по счёту № 1070",
+    "body": "Добрый день, Рустам! Напоминаем, что счёт № 1070 на сумму 198 000 ₽ необходимо оплатить. Пожалуйста, подтвердите дату оплаты или перейдите по ссылке для совершения платежа: https://example.com/pay/1070. С уважением, команда «Вектор Проект»",
+    "summary": "Просим подтвердить дату оплаты или перейти по ссылке для оплаты счёта № 1070",
+    "promised_date": "нет",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1044": {
+   "id": "1044",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1253,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "paid",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 1.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.37
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.17
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.32
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.09
+     },
+     "urgency": {
+      "type": "score",
+      "score": 2.4,
+      "confidence": 0.34,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.09,
+       "1": 0.14,
+       "2": 0.14,
+       "3": 0.53,
+       "4": 0.1
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 883,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "paid",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 1.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Проверка оплаты по счёту № 1044 от 2026-10-15",
+    "body": "Уважаемая Ольга Миронова! Cчёт № 1044 на сумму 215 000 ₽ проверен и оплачен, однако пока не закрыт из-за отсутствия подтверждения поступления платежа. Просим Вас сообщить точную дату оплаты для завершения процедуры.",
+    "summary": "Счёт № 1044 ожидает подтверждения оплаты для закрытия",
+    "promised_date": "null",
+    "client_asks": "дата оплаты",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1056": {
+   "id": "1056",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1303,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "paid",
+      "confidence": 0.94,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.05,
+       "silence": 0.0,
+       "paid": 0.95
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.53
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.27
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.05
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.27
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.08
+     },
+     "urgency": {
+      "type": "score",
+      "score": 2.72,
+      "confidence": 0.47,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.04,
+       "1": 0.11,
+       "2": 0.12,
+       "3": 0.56,
+       "4": 0.17
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 885,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "paid",
+     "confidence": 0.91,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.08,
+      "silence": 0.0,
+      "paid": 0.92,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление о платеже по счёту № 1056",
+    "body": "Уважаемый Игорь Ветров! Cчет № 1056 на сумму 64 000 ₽ оплачен 17-10-2026, платежное поручение № 4412. Пожалуйста, подтвердите корректность даты оплаты. С уважением, ООО «Вектор Проект»",
+    "summary": "Подтверждение оплаты по счету № 1056",
+    "promised_date": "null",
+    "client_asks": "подтвердить дату оплаты",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1067": {
+   "id": "1067",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1355,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "approval",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 1.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.13
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.74
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.96
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.06
+     },
+     "urgency": {
+      "type": "score",
+      "score": 2.53,
+      "confidence": 0.48,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.02,
+       "1": 0.12,
+       "2": 0.24,
+       "3": 0.54,
+       "4": 0.08
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 927,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "none",
+     "confidence": 0.71,
+     "p": {
+      "documents": 0.01,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.23,
+      "details": 0.0,
+      "silence": 0.01,
+      "paid": 0.0,
+      "none": 0.75
+     }
+    },
+    {
+     "index": 1,
+     "choice": "approval",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 1.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление о просроченной оплате по счёту № 1067",
+    "body": "Добрый день, Марина! На сегодня счёт № 1067 на сумму 143 000 ₽ остаётся неоплаченным. Согласно нашему разговору, собственник компании находится в командировке до среды. Просим Вас уточнить дату согласования платежа и сообщить нам финальную дату оплаты.",
+    "summary": "Сообщение о просрочке оплаты и запрос даты согласования и оплаты клиентом",
+    "promised_date": "null",
+    "client_asks": "Конкретной просьбы от клиента нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1069": {
+   "id": "1069",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1305,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "liquidity",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 0.0,
+       "dispute": 0.0,
+       "liquidity": 1.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.15
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.12
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.85
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.84
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.1
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.25,
+      "confidence": 0.64,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.01,
+       "2": 0.06,
+       "3": 0.58,
+       "4": 0.35
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 976,
+     "output_tokens": 172
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "documents",
+     "confidence": 1.0,
+     "p": {
+      "documents": 1.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    },
+    {
+     "index": 2,
+     "choice": "liquidity",
+     "confidence": 1.0,
+     "p": {
+      "documents": 0.0,
+      "dispute": 0.0,
+      "liquidity": 1.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Уведомление о задолженности по счёту № 1069",
+    "body": "Добрый день, Елена! Благодарим за подписание акта. Понимаем ситуацию с кредитной линией. Просим согласовать с Вами возможный график платежей по счёту № 1069 на сумму 286 000 ₽. Пожалуйста, подтвердите удобную для Вас дату оплаты.",
+    "summary": "Просьба согласовать график платежей и подтвердить дату оплаты по счёту № 1069",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1071": {
+   "id": "1071",
+   "jev": {
+    "model": "jev-1.13.0",
+    "latency_ms": 1292,
+    "answers": {
+     "cause": {
+      "type": "choice",
+      "choice": "documents",
+      "confidence": 1.0,
+      "probabilities": {
+       "documents": 1.0,
+       "dispute": 0.0,
+       "liquidity": 0.0,
+       "approval": 0.0,
+       "details": 0.0,
+       "silence": 0.0,
+       "paid": 0.0
+      }
+     },
+     "fixable": {
+      "type": "noul",
+      "noul": 0.89
+     },
+     "promise": {
+      "type": "noul",
+      "noul": 0.52
+     },
+     "insolvency": {
+      "type": "noul",
+      "noul": 0.04
+     },
+     "docs_ok": {
+      "type": "noul",
+      "noul": 0.02
+     },
+     "conflict": {
+      "type": "noul",
+      "noul": 0.5
+     },
+     "urgency": {
+      "type": "score",
+      "score": 3.57,
+      "confidence": 0.64,
+      "legend": {
+       "0": "Not urgent",
+       "1": "Low",
+       "2": "Medium",
+       "3": "High",
+       "4": "Critical"
+      },
+      "probabilities": {
+       "0": 0.0,
+       "1": 0.0,
+       "2": 0.01,
+       "3": 0.41,
+       "4": 0.58
+      }
+     }
+    },
+    "usage": {
+     "input_tokens": 889,
+     "output_tokens": 170
+    }
+   },
+   "messages": [
+    {
+     "index": 0,
+     "choice": "documents",
+     "confidence": 1.0,
+     "p": {
+      "documents": 1.0,
+      "dispute": 0.0,
+      "liquidity": 0.0,
+      "approval": 0.0,
+      "details": 0.0,
+      "silence": 0.0,
+      "paid": 0.0,
+      "none": 0.0
+     }
+    }
+   ],
+   "llm": {
+    "subject": "Повторная отправка документа о приёмке по счёту №1071",
+    "body": "Уважаемая Татьяна Орлова! В ответ на Ваше обращение от 2026-10-26 направляем документ о приёмке по форме из приложения 4 к договору через электронный документооборот. Просим Вас проверить его и подтвердить дату оплаты.",
+    "summary": "Отправлен исправленный документ о приёмке, просим подтвердить дату оплаты",
+    "promised_date": "null",
+    "client_asks": "нет",
+    "invalid_numbers": [],
+    "model": "GigaChat-2"
+   }
+  },
+  "1073": {
+   "id": "1073"
+  },
+  "1074": {
+   "id": "1074"
+  },
+  "1075": {
+   "id": "1075"
+  },
+  "1076": {
+   "id": "1076"
+  },
+  "1029": {
+   "id": "1029"
+  },
+  "1047": {
+   "id": "1047"
+  }
+ },
+ "doc_samples": [
+  {
+   "key": "upd",
+   "title": "УПД № 1057: старый КПП клиента",
+   "invoice": "1057",
+   "text": "УНИВЕРСАЛЬНЫЙ ПЕРЕДАТОЧНЫЙ ДОКУМЕНТ № 1057 от 25.09.2026\nПродавец: ООО «Вектор Проект», ИНН 7704123450 КПП 770401001\nПокупатель: АО «Уралстройинвест», ИНН 7457890122 КПП 745701001\nИтого к оплате: 612 000,00 руб., в том числе НДС 102 000,00 руб.\nПодпись продавца: есть"
+  },
+  {
+   "key": "invoice",
+   "title": "Счёт № 1054: опечатка в расчётном счёте",
+   "invoice": "1054",
+   "text": "СЧЁТ НА ОПЛАТУ № 1054 от 02.10.2026\nПолучатель: ООО «Вектор Проект», ИНН 7704123450 КПП 770401001\nБанк получателя: Демо-банк, БИК 044525999, к/с 30101810600000000999\nр/с 40702810900000001237\nПлательщик: ООО «Сибирь Агро», ИНН 5409012340\nИтого: 87 400,00 руб., в том числе НДС 14 566,67 руб."
+  },
+  {
+   "key": "act",
+   "title": "Акт № 1045: сумма не совпадает со счётом, нет подписи",
+   "invoice": "1045",
+   "text": "АКТ ВЫПОЛНЕННЫХ РАБОТ № 1045 от 24.09.2026\nИсполнитель: ООО «Вектор Проект», ИНН 7704123450\nЗаказчик: ООО «Линия пространства», ИНН 5003456785\nИтого: 240 000,00 руб."
+  },
+  {
+   "key": "ok",
+   "title": "Счёт № 1073: документ в порядке",
+   "invoice": "1073",
+   "text": "СЧЁТ НА ОПЛАТУ № 1073 от 20.10.2026\nПолучатель: ООО «Вектор Проект», ИНН 7704123450 КПП 770401001\nБанк получателя: Демо-банк, БИК 044525999, к/с 30101810600000000999\nр/с 40702810900000001234\nПлательщик: ООО «Атлас Девелопмент», ИНН 7736789010\nИтого: 540 000,00 руб., в том числе НДС 90 000,00 руб."
+  }
+ ],
+ "bank_portfolio": [
+  {
+   "id": "К-1000",
+   "sector": "Строительство",
+   "revenue_month": 12000000,
+   "ar": 17588907,
+   "overdue": 13191681,
+   "dso": 44,
+   "mix": {
+    "documents": 0.023,
+    "dispute": 0.42,
+    "liquidity": 0.147,
+    "approval": 0.245,
+    "details": 0.023,
+    "silence": 0.13,
+    "paid": 0.013
+   },
+   "fixable_share": 0.61,
+   "factorable": 2368095,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1001",
+   "sector": "IT-услуги",
+   "revenue_month": 12000000,
+   "ar": 15047070,
+   "overdue": 10220789,
+   "dso": 38,
+   "mix": {
+    "documents": 0.003,
+    "dispute": 0.03,
+    "liquidity": 0.048,
+    "approval": 0.001,
+    "details": 0.177,
+    "silence": 0.159,
+    "paid": 0.583
+   },
+   "fixable_share": 0.95,
+   "factorable": 2566102,
+   "debtor_alerts": 1,
+   "uses_factoring": true
+  },
+  {
+   "id": "К-1002",
+   "sector": "Строительство",
+   "revenue_month": 3000000,
+   "ar": 3171990,
+   "overdue": 464914,
+   "dso": 32,
+   "mix": {
+    "documents": 0.03,
+    "dispute": 0.048,
+    "liquidity": 0.003,
+    "approval": 0.335,
+    "details": 0.091,
+    "silence": 0.408,
+    "paid": 0.085
+   },
+   "fixable_share": 0.66,
+   "factorable": 1855199,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1003",
+   "sector": "Медиа",
+   "revenue_month": 3000000,
+   "ar": 3209962,
+   "overdue": 183610,
+   "dso": 32,
+   "mix": {
+    "documents": 0.004,
+    "dispute": 0.065,
+    "liquidity": 0.544,
+    "approval": 0.337,
+    "details": 0.008,
+    "silence": 0.036,
+    "paid": 0.006
+   },
+   "fixable_share": 0.12,
+   "factorable": 1122664,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1004",
+   "sector": "Логистика",
+   "revenue_month": 5000000,
+   "ar": 5237124,
+   "overdue": 1288315,
+   "dso": 31,
+   "mix": {
+    "documents": 0.007,
+    "dispute": 0.089,
+    "liquidity": 0.023,
+    "approval": 0.037,
+    "details": 0.474,
+    "silence": 0.324,
+    "paid": 0.046
+   },
+   "fixable_share": 0.94,
+   "factorable": 2605040,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1005",
+   "sector": "Производство",
+   "revenue_month": 60000000,
+   "ar": 72121110,
+   "overdue": 33373290,
+   "dso": 36,
+   "mix": {
+    "documents": 0.0,
+    "dispute": 0.224,
+    "liquidity": 0.414,
+    "approval": 0.09,
+    "details": 0.003,
+    "silence": 0.026,
+    "paid": 0.243
+   },
+   "fixable_share": 0.5,
+   "factorable": 13772067,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1006",
+   "sector": "Оптовая торговля",
+   "revenue_month": 5000000,
+   "ar": 7795673,
+   "overdue": 3154042,
+   "dso": 47,
+   "mix": {
+    "documents": 0.213,
+    "dispute": 0.02,
+    "liquidity": 0.011,
+    "approval": 0.174,
+    "details": 0.282,
+    "silence": 0.012,
+    "paid": 0.288
+   },
+   "fixable_share": 0.81,
+   "factorable": 3057751,
+   "debtor_alerts": 1,
+   "uses_factoring": true
+  },
+  {
+   "id": "К-1007",
+   "sector": "IT-услуги",
+   "revenue_month": 3000000,
+   "ar": 1916089,
+   "overdue": 759839,
+   "dso": 19,
+   "mix": {
+    "documents": 0.05,
+    "dispute": 0.018,
+    "liquidity": 0.3,
+    "approval": 0.003,
+    "details": 0.03,
+    "silence": 0.181,
+    "paid": 0.419
+   },
+   "fixable_share": 0.7,
+   "factorable": 653288,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1008",
+   "sector": "Проектирование",
+   "revenue_month": 5000000,
+   "ar": 6744926,
+   "overdue": 769692,
+   "dso": 40,
+   "mix": {
+    "documents": 0.048,
+    "dispute": 0.171,
+    "liquidity": 0.574,
+    "approval": 0.005,
+    "details": 0.012,
+    "silence": 0.123,
+    "paid": 0.066
+   },
+   "fixable_share": 0.42,
+   "factorable": 3624080,
+   "debtor_alerts": 1,
+   "uses_factoring": true
+  },
+  {
+   "id": "К-1009",
+   "sector": "Проектирование",
+   "revenue_month": 3000000,
+   "ar": 3224379,
+   "overdue": 1503900,
+   "dso": 32,
+   "mix": {
+    "documents": 0.012,
+    "dispute": 0.01,
+    "liquidity": 0.205,
+    "approval": 0.04,
+    "details": 0.011,
+    "silence": 0.436,
+    "paid": 0.287
+   },
+   "fixable_share": 0.76,
+   "factorable": 628943,
+   "debtor_alerts": 3,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1010",
+   "sector": "Оптовая торговля",
+   "revenue_month": 8000000,
+   "ar": 7614673,
+   "overdue": 1895562,
+   "dso": 29,
+   "mix": {
+    "documents": 0.212,
+    "dispute": 0.253,
+    "liquidity": 0.111,
+    "approval": 0.133,
+    "details": 0.05,
+    "silence": 0.115,
+    "paid": 0.126
+   },
+   "fixable_share": 0.76,
+   "factorable": 2162228,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1011",
+   "sector": "Медиа",
+   "revenue_month": 35000000,
+   "ar": 32555246,
+   "overdue": 8319599,
+   "dso": 28,
+   "mix": {
+    "documents": 0.139,
+    "dispute": 0.05,
+    "liquidity": 0.004,
+    "approval": 0.0,
+    "details": 0.481,
+    "silence": 0.007,
+    "paid": 0.319
+   },
+   "fixable_share": 1.0,
+   "factorable": 14082027,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1012",
+   "sector": "Логистика",
+   "revenue_month": 8000000,
+   "ar": 7208261,
+   "overdue": 3682392,
+   "dso": 27,
+   "mix": {
+    "documents": 0.198,
+    "dispute": 0.089,
+    "liquidity": 0.361,
+    "approval": 0.049,
+    "details": 0.201,
+    "silence": 0.018,
+    "paid": 0.084
+   },
+   "fixable_share": 0.59,
+   "factorable": 2228688,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1013",
+   "sector": "Агропром",
+   "revenue_month": 20000000,
+   "ar": 30416068,
+   "overdue": 5656735,
+   "dso": 46,
+   "mix": {
+    "documents": 0.001,
+    "dispute": 0.002,
+    "liquidity": 0.352,
+    "approval": 0.247,
+    "details": 0.005,
+    "silence": 0.081,
+    "paid": 0.313
+   },
+   "fixable_share": 0.4,
+   "factorable": 15866119,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1014",
+   "sector": "Проектирование",
+   "revenue_month": 35000000,
+   "ar": 32038008,
+   "overdue": 23556671,
+   "dso": 27,
+   "mix": {
+    "documents": 0.0,
+    "dispute": 0.329,
+    "liquidity": 0.001,
+    "approval": 0.217,
+    "details": 0.141,
+    "silence": 0.041,
+    "paid": 0.271
+   },
+   "fixable_share": 0.78,
+   "factorable": 3025207,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1015",
+   "sector": "IT-услуги",
+   "revenue_month": 3000000,
+   "ar": 4107639,
+   "overdue": 508646,
+   "dso": 41,
+   "mix": {
+    "documents": 0.015,
+    "dispute": 0.013,
+    "liquidity": 0.318,
+    "approval": 0.454,
+    "details": 0.151,
+    "silence": 0.007,
+    "paid": 0.043
+   },
+   "fixable_share": 0.23,
+   "factorable": 2297393,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1016",
+   "sector": "Агропром",
+   "revenue_month": 60000000,
+   "ar": 64331970,
+   "overdue": 31200884,
+   "dso": 32,
+   "mix": {
+    "documents": 0.147,
+    "dispute": 0.082,
+    "liquidity": 0.114,
+    "approval": 0.173,
+    "details": 0.047,
+    "silence": 0.189,
+    "paid": 0.248
+   },
+   "fixable_share": 0.71,
+   "factorable": 12607153,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1017",
+   "sector": "Агропром",
+   "revenue_month": 5000000,
+   "ar": 6127741,
+   "overdue": 1405641,
+   "dso": 37,
+   "mix": {
+    "documents": 0.077,
+    "dispute": 0.152,
+    "liquidity": 0.015,
+    "approval": 0.186,
+    "details": 0.239,
+    "silence": 0.147,
+    "paid": 0.184
+   },
+   "fixable_share": 0.8,
+   "factorable": 2005258,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1018",
+   "sector": "Проектирование",
+   "revenue_month": 20000000,
+   "ar": 31534972,
+   "overdue": 10552389,
+   "dso": 47,
+   "mix": {
+    "documents": 0.035,
+    "dispute": 0.386,
+    "liquidity": 0.022,
+    "approval": 0.343,
+    "details": 0.084,
+    "silence": 0.001,
+    "paid": 0.13
+   },
+   "fixable_share": 0.64,
+   "factorable": 12386107,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1019",
+   "sector": "IT-услуги",
+   "revenue_month": 20000000,
+   "ar": 30011345,
+   "overdue": 9342550,
+   "dso": 45,
+   "mix": {
+    "documents": 0.116,
+    "dispute": 0.164,
+    "liquidity": 0.198,
+    "approval": 0.067,
+    "details": 0.108,
+    "silence": 0.239,
+    "paid": 0.109
+   },
+   "fixable_share": 0.74,
+   "factorable": 8423001,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1020",
+   "sector": "Агропром",
+   "revenue_month": 60000000,
+   "ar": 88204192,
+   "overdue": 42834862,
+   "dso": 44,
+   "mix": {
+    "documents": 0.08,
+    "dispute": 0.265,
+    "liquidity": 0.181,
+    "approval": 0.014,
+    "details": 0.0,
+    "silence": 0.152,
+    "paid": 0.31
+   },
+   "fixable_share": 0.81,
+   "factorable": 16577206,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1021",
+   "sector": "Оптовая торговля",
+   "revenue_month": 20000000,
+   "ar": 14438619,
+   "overdue": 916309,
+   "dso": 22,
+   "mix": {
+    "documents": 0.052,
+    "dispute": 0.019,
+    "liquidity": 0.078,
+    "approval": 0.037,
+    "details": 0.26,
+    "silence": 0.281,
+    "paid": 0.272
+   },
+   "fixable_share": 0.88,
+   "factorable": 7217447,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1022",
+   "sector": "Логистика",
+   "revenue_month": 3000000,
+   "ar": 4575812,
+   "overdue": 763160,
+   "dso": 46,
+   "mix": {
+    "documents": 0.072,
+    "dispute": 0.088,
+    "liquidity": 0.268,
+    "approval": 0.008,
+    "details": 0.372,
+    "silence": 0.011,
+    "paid": 0.182
+   },
+   "fixable_share": 0.72,
+   "factorable": 1668774,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1023",
+   "sector": "Производство",
+   "revenue_month": 12000000,
+   "ar": 7479000,
+   "overdue": 2385103,
+   "dso": 19,
+   "mix": {
+    "documents": 0.418,
+    "dispute": 0.16,
+    "liquidity": 0.027,
+    "approval": 0.026,
+    "details": 0.165,
+    "silence": 0.193,
+    "paid": 0.01
+   },
+   "fixable_share": 0.95,
+   "factorable": 3413870,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1024",
+   "sector": "Логистика",
+   "revenue_month": 8000000,
+   "ar": 11925141,
+   "overdue": 2630112,
+   "dso": 45,
+   "mix": {
+    "documents": 0.338,
+    "dispute": 0.008,
+    "liquidity": 0.003,
+    "approval": 0.064,
+    "details": 0.081,
+    "silence": 0.379,
+    "paid": 0.126
+   },
+   "fixable_share": 0.93,
+   "factorable": 5546285,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1025",
+   "sector": "Строительство",
+   "revenue_month": 60000000,
+   "ar": 37065521,
+   "overdue": 2837446,
+   "dso": 19,
+   "mix": {
+    "documents": 0.008,
+    "dispute": 0.159,
+    "liquidity": 0.358,
+    "approval": 0.157,
+    "details": 0.292,
+    "silence": 0.022,
+    "paid": 0.003
+   },
+   "fixable_share": 0.48,
+   "factorable": 13251764,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1026",
+   "sector": "Агропром",
+   "revenue_month": 20000000,
+   "ar": 21625538,
+   "overdue": 4882313,
+   "dso": 32,
+   "mix": {
+    "documents": 0.059,
+    "dispute": 0.331,
+    "liquidity": 0.246,
+    "approval": 0.013,
+    "details": 0.339,
+    "silence": 0.004,
+    "paid": 0.007
+   },
+   "fixable_share": 0.74,
+   "factorable": 8150762,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1027",
+   "sector": "Агропром",
+   "revenue_month": 5000000,
+   "ar": 6004649,
+   "overdue": 204807,
+   "dso": 36,
+   "mix": {
+    "documents": 0.085,
+    "dispute": 0.02,
+    "liquidity": 0.014,
+    "approval": 0.136,
+    "details": 0.0,
+    "silence": 0.413,
+    "paid": 0.332
+   },
+   "fixable_share": 0.85,
+   "factorable": 3460389,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1028",
+   "sector": "Проектирование",
+   "revenue_month": 20000000,
+   "ar": 23692297,
+   "overdue": 9044260,
+   "dso": 36,
+   "mix": {
+    "documents": 0.276,
+    "dispute": 0.013,
+    "liquidity": 0.435,
+    "approval": 0.009,
+    "details": 0.054,
+    "silence": 0.145,
+    "paid": 0.068
+   },
+   "fixable_share": 0.56,
+   "factorable": 7339770,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1029",
+   "sector": "Медиа",
+   "revenue_month": 5000000,
+   "ar": 3352758,
+   "overdue": 619290,
+   "dso": 20,
+   "mix": {
+    "documents": 0.021,
+    "dispute": 0.35,
+    "liquidity": 0.174,
+    "approval": 0.045,
+    "details": 0.171,
+    "silence": 0.127,
+    "paid": 0.112
+   },
+   "fixable_share": 0.78,
+   "factorable": 1329444,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1030",
+   "sector": "Оптовая торговля",
+   "revenue_month": 3000000,
+   "ar": 4085219,
+   "overdue": 1748098,
+   "dso": 41,
+   "mix": {
+    "documents": 0.002,
+    "dispute": 0.028,
+    "liquidity": 0.102,
+    "approval": 0.007,
+    "details": 0.046,
+    "silence": 0.596,
+    "paid": 0.22
+   },
+   "fixable_share": 0.89,
+   "factorable": 1233385,
+   "debtor_alerts": 2,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1031",
+   "sector": "Агропром",
+   "revenue_month": 35000000,
+   "ar": 23666860,
+   "overdue": 13764697,
+   "dso": 20,
+   "mix": {
+    "documents": 0.014,
+    "dispute": 0.124,
+    "liquidity": 0.016,
+    "approval": 0.137,
+    "details": 0.208,
+    "silence": 0.002,
+    "paid": 0.498
+   },
+   "fixable_share": 0.85,
+   "factorable": 4923814,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1032",
+   "sector": "Агропром",
+   "revenue_month": 20000000,
+   "ar": 17715008,
+   "overdue": 7813373,
+   "dso": 27,
+   "mix": {
+    "documents": 0.098,
+    "dispute": 0.0,
+    "liquidity": 0.067,
+    "approval": 0.002,
+    "details": 0.027,
+    "silence": 0.636,
+    "paid": 0.17
+   },
+   "fixable_share": 0.93,
+   "factorable": 6576069,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1033",
+   "sector": "Оптовая торговля",
+   "revenue_month": 35000000,
+   "ar": 54056007,
+   "overdue": 4994555,
+   "dso": 46,
+   "mix": {
+    "documents": 0.245,
+    "dispute": 0.015,
+    "liquidity": 0.071,
+    "approval": 0.228,
+    "details": 0.135,
+    "silence": 0.057,
+    "paid": 0.248
+   },
+   "fixable_share": 0.7,
+   "factorable": 31195411,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1034",
+   "sector": "Проектирование",
+   "revenue_month": 12000000,
+   "ar": 8615579,
+   "overdue": 1858339,
+   "dso": 22,
+   "mix": {
+    "documents": 0.139,
+    "dispute": 0.157,
+    "liquidity": 0.179,
+    "approval": 0.051,
+    "details": 0.212,
+    "silence": 0.255,
+    "paid": 0.007
+   },
+   "fixable_share": 0.77,
+   "factorable": 3051199,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1035",
+   "sector": "Логистика",
+   "revenue_month": 20000000,
+   "ar": 29853992,
+   "overdue": 21127786,
+   "dso": 45,
+   "mix": {
+    "documents": 0.213,
+    "dispute": 0.145,
+    "liquidity": 0.159,
+    "approval": 0.182,
+    "details": 0.257,
+    "silence": 0.016,
+    "paid": 0.028
+   },
+   "fixable_share": 0.66,
+   "factorable": 6046409,
+   "debtor_alerts": 2,
+   "uses_factoring": true
+  },
+  {
+   "id": "К-1036",
+   "sector": "Проектирование",
+   "revenue_month": 3000000,
+   "ar": 1828427,
+   "overdue": 143441,
+   "dso": 18,
+   "mix": {
+    "documents": 0.354,
+    "dispute": 0.011,
+    "liquidity": 0.023,
+    "approval": 0.41,
+    "details": 0.1,
+    "silence": 0.053,
+    "paid": 0.049
+   },
+   "fixable_share": 0.57,
+   "factorable": 881319,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1037",
+   "sector": "Проектирование",
+   "revenue_month": 12000000,
+   "ar": 16910196,
+   "overdue": 7657759,
+   "dso": 42,
+   "mix": {
+    "documents": 0.025,
+    "dispute": 0.246,
+    "liquidity": 0.051,
+    "approval": 0.16,
+    "details": 0.366,
+    "silence": 0.04,
+    "paid": 0.113
+   },
+   "fixable_share": 0.79,
+   "factorable": 5654504,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1038",
+   "sector": "Производство",
+   "revenue_month": 20000000,
+   "ar": 13940339,
+   "overdue": 1290189,
+   "dso": 21,
+   "mix": {
+    "documents": 0.07,
+    "dispute": 0.47,
+    "liquidity": 0.005,
+    "approval": 0.036,
+    "details": 0.343,
+    "silence": 0.005,
+    "paid": 0.072
+   },
+   "fixable_share": 0.96,
+   "factorable": 7637516,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1039",
+   "sector": "Агропром",
+   "revenue_month": 5000000,
+   "ar": 4789008,
+   "overdue": 2772879,
+   "dso": 29,
+   "mix": {
+    "documents": 0.085,
+    "dispute": 0.221,
+    "liquidity": 0.232,
+    "approval": 0.219,
+    "details": 0.05,
+    "silence": 0.169,
+    "paid": 0.024
+   },
+   "fixable_share": 0.55,
+   "factorable": 929772,
+   "debtor_alerts": 2,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1040",
+   "sector": "Строительство",
+   "revenue_month": 5000000,
+   "ar": 3421436,
+   "overdue": 958926,
+   "dso": 21,
+   "mix": {
+    "documents": 0.149,
+    "dispute": 0.168,
+    "liquidity": 0.026,
+    "approval": 0.385,
+    "details": 0.035,
+    "silence": 0.009,
+    "paid": 0.228
+   },
+   "fixable_share": 0.59,
+   "factorable": 1598537,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1041",
+   "sector": "Логистика",
+   "revenue_month": 20000000,
+   "ar": 15173684,
+   "overdue": 4749584,
+   "dso": 23,
+   "mix": {
+    "documents": 0.058,
+    "dispute": 0.009,
+    "liquidity": 0.076,
+    "approval": 0.001,
+    "details": 0.332,
+    "silence": 0.007,
+    "paid": 0.517
+   },
+   "fixable_share": 0.92,
+   "factorable": 5188264,
+   "debtor_alerts": 1,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1042",
+   "sector": "Производство",
+   "revenue_month": 20000000,
+   "ar": 18763365,
+   "overdue": 4837327,
+   "dso": 28,
+   "mix": {
+    "documents": 0.01,
+    "dispute": 0.128,
+    "liquidity": 0.347,
+    "approval": 0.003,
+    "details": 0.205,
+    "silence": 0.001,
+    "paid": 0.307
+   },
+   "fixable_share": 0.65,
+   "factorable": 9678513,
+   "debtor_alerts": 3,
+   "uses_factoring": true
+  },
+  {
+   "id": "К-1043",
+   "sector": "Проектирование",
+   "revenue_month": 12000000,
+   "ar": 17205933,
+   "overdue": 8992752,
+   "dso": 43,
+   "mix": {
+    "documents": 0.165,
+    "dispute": 0.211,
+    "liquidity": 0.058,
+    "approval": 0.058,
+    "details": 0.007,
+    "silence": 0.18,
+    "paid": 0.321
+   },
+   "fixable_share": 0.88,
+   "factorable": 3954094,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1044",
+   "sector": "Производство",
+   "revenue_month": 12000000,
+   "ar": 13548857,
+   "overdue": 2593873,
+   "dso": 34,
+   "mix": {
+    "documents": 0.036,
+    "dispute": 0.009,
+    "liquidity": 0.326,
+    "approval": 0.321,
+    "details": 0.219,
+    "silence": 0.0,
+    "paid": 0.089
+   },
+   "fixable_share": 0.35,
+   "factorable": 6903187,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1045",
+   "sector": "IT-услуги",
+   "revenue_month": 8000000,
+   "ar": 6538915,
+   "overdue": 989416,
+   "dso": 25,
+   "mix": {
+    "documents": 0.019,
+    "dispute": 0.044,
+    "liquidity": 0.017,
+    "approval": 0.322,
+    "details": 0.055,
+    "silence": 0.169,
+    "paid": 0.375
+   },
+   "fixable_share": 0.66,
+   "factorable": 2873652,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1046",
+   "sector": "Медиа",
+   "revenue_month": 8000000,
+   "ar": 10082002,
+   "overdue": 1086013,
+   "dso": 38,
+   "mix": {
+    "documents": 0.148,
+    "dispute": 0.14,
+    "liquidity": 0.145,
+    "approval": 0.001,
+    "details": 0.2,
+    "silence": 0.186,
+    "paid": 0.179
+   },
+   "fixable_share": 0.85,
+   "factorable": 5998796,
+   "debtor_alerts": 0,
+   "uses_factoring": false
+  },
+  {
+   "id": "К-1047",
+   "sector": "Логистика",
+   "revenue_month": 20000000,
+   "ar": 29496568,
+   "overdue": 10994283,
+   "dso": 44,
+   "mix": {
+    "documents": 0.298,
+    "dispute": 0.008,
+    "liquidity": 0.25,
+    "approval": 0.174,
+    "details": 0.121,
+    "silence": 0.001,
+    "paid": 0.148
+   },
+   "fixable_share": 0.58,
+   "factorable": 7630431,
+   "debtor_alerts": 3,
+   "uses_factoring": false
+  }
+ ]
+}

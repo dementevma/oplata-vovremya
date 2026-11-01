@@ -1,0 +1,65 @@
+{
+ "causes": {
+  "jev": {
+   "hand": {
+    "k": 42,
+    "n": 42,
+    "acc": 1.0,
+    "lo": 0.916,
+    "hi": 1.0
+   },
+   "gigachat": {
+    "k": 47,
+    "n": 47,
+    "acc": 1.0,
+    "lo": 0.925,
+    "hi": 1.0
+   },
+   "all": {
+    "k": 89,
+    "n": 89,
+    "acc": 1.0,
+    "lo": 0.959,
+    "hi": 1.0
+   }
+  },
+  "jev_confident_share": 0.775,
+  "jev_errors": 0,
+  "baseline_cv": {
+   "k": 54,
+   "n": 89,
+   "acc": 0.607,
+   "lo": 0.497,
+   "hi": 0.709,
+   "macro_f1": 0.461
+  },
+  "baseline_cross": {
+   "gigachat->hand": {
+    "k": 17,
+    "n": 42,
+    "acc": 0.405,
+    "lo": 0.256,
+    "hi": 0.567,
+    "macro_f1": 0.335
+   },
+   "hand->gigachat": {
+    "k": 30,
+    "n": 47,
+    "acc": 0.638,
+    "lo": 0.485,
+    "hi": 0.773,
+    "macro_f1": 0.603
+   }
+  },
+  "max_similarity_hand_gigachat": 0.342,
+  "need_letters": 196
+ },
+ "forecast": {
+  "auc_model": 0.88,
+  "auc_ceiling": 0.881,
+  "auc_one_feature": 0.538,
+  "auc_other_world": 0.699,
+  "auc_other_world_ceiling": 0.779,
+  "mean_prob_error_other_world": 0.037
+ }
+}

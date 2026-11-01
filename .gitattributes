@@ -1,0 +1,6 @@
+*.pdf binary
+*.pptx binary
+*.ttf binary
+*.png binary
+*.jpg binary
+*.svg text eol=lf

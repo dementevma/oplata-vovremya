@@ -1,0 +1,63 @@
+{
+ "model": "jev-1.13.0",
+ "answers": {
+  "cause": {
+   "type": "choice",
+   "choice": "paid",
+   "confidence": 0.94,
+   "probabilities": {
+    "documents": 0.0,
+    "dispute": 0.0,
+    "liquidity": 0.0,
+    "approval": 0.0,
+    "details": 0.05,
+    "silence": 0.0,
+    "paid": 0.95
+   }
+  },
+  "fixable": {
+   "type": "noul",
+   "noul": 0.53
+  },
+  "promise": {
+   "type": "noul",
+   "noul": 0.27
+  },
+  "insolvency": {
+   "type": "noul",
+   "noul": 0.05
+  },
+  "docs_ok": {
+   "type": "noul",
+   "noul": 0.27
+  },
+  "conflict": {
+   "type": "noul",
+   "noul": 0.08
+  },
+  "urgency": {
+   "type": "score",
+   "score": 2.72,
+   "confidence": 0.47,
+   "legend": {
+    "0": "Not urgent",
+    "1": "Low",
+    "2": "Medium",
+    "3": "High",
+    "4": "Critical"
+   },
+   "probabilities": {
+    "0": 0.04,
+    "1": 0.11,
+    "2": 0.12,
+    "3": 0.56,
+    "4": 0.17
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 885,
+  "output_tokens": 170
+ },
+ "latency_ms": 1303
+}

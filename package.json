@@ -1,0 +1,11 @@
+{
+  "name": "oplata-vovremya",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Оплата вовремя: ИИ-помощник МСБ по дебиторке — причина неоплаты, следующий шаг, сверка, кассовый разрыв",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

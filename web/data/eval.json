@@ -1,0 +1,2336 @@
+{
+ "model": "jev-1.13.0",
+ "rows": [
+  {
+   "id": "h1",
+   "source": "hand",
+   "label": "documents",
+   "text": "Добрый день! Бухгалтерия вернула счёт: нет акта выполненных работ. Как пришлёте — сразу в оплату.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "h2",
+   "source": "hand",
+   "label": "documents",
+   "text": "В УПД неверно указан наш адрес, программа не принимает. Переделайте, пожалуйста.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "h3",
+   "source": "hand",
+   "label": "documents",
+   "text": "привет, а где счёт-фактура? без неё не проведём",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "h4",
+   "source": "hand",
+   "label": "documents",
+   "text": "Платить готовы, но нужен оригинал акта с синей печатью, скан не подходит для нашего аудитора.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "h5",
+   "source": "hand",
+   "label": "documents",
+   "text": "Акт пришёл без подписи генерального, только с факсимиле. Пришлите корректный экземпляр через Контур.Диадок.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "h6",
+   "source": "hand",
+   "label": "documents",
+   "text": "Не можем закрыть заявку на оплату: в системе требуют загрузить документ о приёмке по форме приложения 3.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "h7",
+   "source": "hand",
+   "label": "dispute",
+   "text": "Мы не согласны с суммой: в смете было 18 часов работы, в акте выставлено 26.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "h8",
+   "source": "hand",
+   "label": "dispute",
+   "text": "Оплатим после устранения замечаний по разделу ОВ, сейчас работа не принята.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 0.98,
+    "p": {
+     "documents": 0.02,
+     "dispute": 0.98,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "h9",
+   "source": "hand",
+   "label": "dispute",
+   "text": "Коллеги, качество отчёта нас не устраивает, половина данных устаревшая. Давайте обсудим скидку, иначе платить не готовы.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "h10",
+   "source": "hand",
+   "label": "dispute",
+   "text": "Вы выставили за три выезда, а был один. Скорректируйте, тогда оплатим фактический объём.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "h11",
+   "source": "hand",
+   "label": "dispute",
+   "text": "Сроки по этапу 2 сорваны на две недели, по договору это неустойка. Мы удержим её из оплаты, сумму направим отдельно.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.99,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.01
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "h12",
+   "source": "hand",
+   "label": "dispute",
+   "text": "По нашим расчётам долг 150 тысяч, а не 180. Пришлите акт сверки, разберёмся.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 0.84,
+    "p": {
+     "documents": 0.14,
+     "dispute": 0.86,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "h13",
+   "source": "hand",
+   "label": "liquidity",
+   "text": "Честно скажу, денег сейчас нет. Сами ждём оплату от заказчика.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "h14",
+   "source": "hand",
+   "label": "liquidity",
+   "text": "Счета арестованы налоговой, пока не снимут блокировку — никаких платежей.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 0.31,
+    "p": {
+     "documents": 0.01,
+     "dispute": 0.01,
+     "liquidity": 0.4,
+     "approval": 0.13,
+     "details": 0.22,
+     "silence": 0.01,
+     "paid": 0.0,
+     "none": 0.22
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "h15",
+   "source": "hand",
+   "label": "liquidity",
+   "text": "Мы в сложной ситуации, банк отказал в продлении овердрафта. Можем платить частями по 20 тысяч в неделю.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "h16",
+   "source": "hand",
+   "label": "liquidity",
+   "text": "В этом месяце платим только зарплату и налоги, остальное перенесли на декабрь.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 0.94,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.95,
+     "approval": 0.05,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "h17",
+   "source": "hand",
+   "label": "liquidity",
+   "text": "Документы в порядке, вопросов к работе нет. Проблема в том, что нам самим не заплатили за объект, ждём.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 0.7,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.74,
+     "approval": 0.21,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.05
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "h18",
+   "source": "hand",
+   "label": "liquidity",
+   "text": "Компания в процессе реструктуризации долгов, все кредиторы получат график после собрания.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 0.83,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.85,
+     "approval": 0.09,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.06
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "h19",
+   "source": "hand",
+   "label": "approval",
+   "text": "Счёт на подписи у директора, он вернётся в понедельник.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "h20",
+   "source": "hand",
+   "label": "approval",
+   "text": "Ваш платёж включён в реестр на 5 ноября, раньше казначейство не пропустит.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "h21",
+   "source": "hand",
+   "label": "approval",
+   "text": "Всё получили, всё хорошо. Заявка на оплату проходит согласование в головном офисе, обычно это 7–10 дней.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "h22",
+   "source": "hand",
+   "label": "approval",
+   "text": "Платежи у нас по средам и пятницам, вас поставили на пятницу.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 0.89,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.9,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.1
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "h23",
+   "source": "hand",
+   "label": "approval",
+   "text": "Деньги есть, дело не в этом: бюджет на подрядчиков утверждает собственник, ждём его визу.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "h24",
+   "source": "hand",
+   "label": "approval",
+   "text": "Договор проходит повторную проверку в службе безопасности после смены руководства, оплата после её завершения.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "h25",
+   "source": "hand",
+   "label": "details",
+   "text": "Банк вернул платёж — неверный номер счёта получателя. Проверьте реквизиты.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "h26",
+   "source": "hand",
+   "label": "details",
+   "text": "У вас в счёте БИК, которого нет в справочнике. Куда платить?",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "h27",
+   "source": "hand",
+   "label": "details",
+   "text": "Платёж завис: банк запросил подтверждение, что ИНН получателя совпадает с названием. У вас в счёте старое наименование до переименования.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "h28",
+   "source": "hand",
+   "label": "details",
+   "text": "Пробовали оплатить, система пишет, что корсчёт не соответствует БИКу. Пришлите реквизиты заново.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "h29",
+   "source": "hand",
+   "label": "details",
+   "text": "Деньги ушли на старый счёт в другом банке, который вы указывали в прошлом году, и вернулись. Подтвердите актуальный.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "h30",
+   "source": "hand",
+   "label": "details",
+   "text": "в счете ошибка в КПП получателя, банк не пропускает платёж, исправьте",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "h31",
+   "source": "hand",
+   "label": "silence",
+   "text": "Да-да, помню, на этой неделе разберусь.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.86,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.06,
+     "details": 0.0,
+     "silence": 0.06,
+     "paid": 0.0,
+     "none": 0.88
+    },
+    "pred": "silence"
+   }
+  },
+  {
+   "id": "h32",
+   "source": "hand",
+   "label": "silence",
+   "text": "Извините, был в отпуске, сейчас разгребаю почту. Вернусь к вам.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.46,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.01,
+     "details": 0.0,
+     "silence": 0.46,
+     "paid": 0.0,
+     "none": 0.53
+    },
+    "pred": "silence"
+   }
+  },
+  {
+   "id": "h33",
+   "source": "hand",
+   "label": "silence",
+   "text": "Передал вопрос бухгалтерии, жду от них обратной связи.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.43,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.49,
+     "details": 0.0,
+     "silence": 0.01,
+     "paid": 0.0,
+     "none": 0.5
+    },
+    "pred": "silence"
+   }
+  },
+  {
+   "id": "h34",
+   "source": "hand",
+   "label": "silence",
+   "text": "Ок.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.98,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.02,
+     "paid": 0.0,
+     "none": 0.98
+    },
+    "pred": "silence"
+   }
+  },
+  {
+   "id": "h35",
+   "source": "hand",
+   "label": "silence",
+   "text": "Хорошо, посмотрю, что там с оплатой, и напишу.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.01,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.99
+    },
+    "pred": "silence"
+   }
+  },
+  {
+   "id": "h36",
+   "source": "hand",
+   "label": "silence",
+   "text": "Не понимаю, о каком счёте речь, напомните, пожалуйста.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.83,
+    "p": {
+     "documents": 0.07,
+     "dispute": 0.01,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.07,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.85
+    },
+    "pred": "silence"
+   }
+  },
+  {
+   "id": "h37",
+   "source": "hand",
+   "label": "paid",
+   "text": "Оплатили ещё в пятницу, платёжка во вложении.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "h38",
+   "source": "hand",
+   "label": "paid",
+   "text": "Деньги отправили 14-го одной суммой по трём счетам, посмотрите выписку.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "h39",
+   "source": "hand",
+   "label": "paid",
+   "text": "Платёж прошёл, у нас списание подтверждено банком, п/п 3321 от 20.10.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "h40",
+   "source": "hand",
+   "label": "paid",
+   "text": "Мы рассчитались взаимозачётом по акту от 30 сентября, долга нет.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 0.93,
+    "p": {
+     "documents": 0.01,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.94,
+     "none": 0.05
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "h41",
+   "source": "hand",
+   "label": "paid",
+   "text": "Оплату провели, но в назначении указали номер договора, а не счёта. Сверьте, пожалуйста.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "h42",
+   "source": "hand",
+   "label": "paid",
+   "text": "Счёт закрыт, оплатила наша управляющая компания за нас, ООО «Альфа Сервис».",
+   "jev": {
+    "choice": "paid",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.99,
+     "none": 0.01
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-documents-1",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Ожидаем акт выполненных работ, без него оплата невозможна.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-2",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Поставщик, опять забыли прислать закрывающие документы! Когда уже пришлёте?",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   },
+   "excluded": "написано от лица поставщика"
+  },
+  {
+   "id": "g-documents-3",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Ждём обновлённую инвойсу с правильными данными, иначе никакая оплата не состоится.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 0.94,
+    "p": {
+     "documents": 0.95,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.05,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-4",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Прошу выслать форму приёмки работ, пока её не получим — платёж не можем провести.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-5",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Опять ошибка в счёте-фактуре, нужно исправить и прислать заново.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-6",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Счёт без акта выполненных работ не оплачиваем, где документ?",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-7",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Почему ещё нет формы подтверждения выполнения обязательств? Уже сроки поджимают!",
+   "jev": {
+    "choice": "documents",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.99,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.01
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-8",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Требуется корректировка накладной, без неё деньги не уйдут со счёта.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-9",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Ещё раз напоминаю про отсутствие закрывающего акта, это критично для оплаты.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   }
+  },
+  {
+   "id": "g-documents-10",
+   "source": "gigachat",
+   "label": "documents",
+   "text": "Заказчик недоволен отсутствием УПД, просит срочно предоставить правильный вариант.",
+   "jev": {
+    "choice": "documents",
+    "confidence": 1.0,
+    "p": {
+     "documents": 1.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "documents"
+   },
+   "excluded": "от третьего лица"
+  },
+  {
+   "id": "g-dispute-1",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Спорим по объему оказанных услуг — вроде сделали меньше, чем договаривались. Ждем уточнения",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-2",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Оплатили бы уже давно, но качество оставляет желать лучшего... Ужас просто!",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-3",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Счет не оплачен из-за разногласий по стоимости работ. Просьба разобраться побыстрее.",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-4",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Объем выполненных работ вызывает сомнения. Пока не подтвердите факт оказания услуг полностью, платить не будем",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 0.87,
+    "p": {
+     "documents": 0.11,
+     "dispute": 0.89,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-5",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Качество выполненных работ нас не устраивает. Ждем разъяснений и исправлений",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-6",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Почему счет не оплачен? Потому что объем выполненных работ явно занижен! Срочно дайте корректировку!",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.01,
+     "dispute": 0.99,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-7",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Не согласны со стоимостью услуг. Обсуждали сумму иначе, жду пояснения",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-8",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Мы спорим по поводу качества предоставленных материалов. Вышлите нам протокол проверки, пожалуйста",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 0.95,
+    "p": {
+     "documents": 0.04,
+     "dispute": 0.96,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-9",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Получили отчет, который вызывает много вопросов. Сумма и объем работ вызывают сомнение",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-dispute-10",
+   "source": "gigachat",
+   "label": "dispute",
+   "text": "Отвратительное качество работ, будто вообще ничего не делали! Оплату ждем только после исправления",
+   "jev": {
+    "choice": "dispute",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 1.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "dispute"
+   }
+  },
+  {
+   "id": "g-liquidity-1",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "К сожалению, у нас возникли финансовые трудности, поэтому пока не можем оплатить выставленный счет. Надеемся на ваше понимание.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-2",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Привет! Счет так и остался неоплаченным по причине отсутствия денежных средств. Ждем решения ситуации поскорее!",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-3",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Счет еще не оплачен, потому что сейчас серьезные проблемы с ликвидностью. Постараемся разобраться как можно быстрее.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-4",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Извини за задержку, но у нас реально нет денег прямо сейчас. Уже работаем над этим вопросом.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-5",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Оплатили бы уже давно, если бы были средства. Сейчас сложная финансовая ситуация, к сожалению.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-6",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Не смогли вовремя оплатить ваш счет, поскольку столкнулись с нехваткой оборотных средств. Прошу прощения за неудобства.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-7",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "На данный момент мы испытываем временные затруднения с платежеспособностью, поэтому оплата вашего счета откладывается.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-8",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Счет до сих пор не оплачен ввиду проблем с денежными потоками. Просим вас проявить терпение и понимание.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-9",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Хотели бы сразу все оплатить, но, увы, сейчас совсем туго с деньгами. Работаем над решением вопроса.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 1.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-liquidity-10",
+   "source": "gigachat",
+   "label": "liquidity",
+   "text": "Очень жаль, но вынуждены сообщить, что на текущий момент отсутствует возможность произвести оплату по вашему счету. Будем решать проблему оперативно.",
+   "jev": {
+    "choice": "liquidity",
+    "confidence": 0.73,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.76,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.24
+    },
+    "pred": "liquidity"
+   }
+  },
+  {
+   "id": "g-approval-1",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Счёт пока не оплачен — находится на согласовании у нашего клиента.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   },
+   "excluded": "согласование у «нашего клиента» — это нехватка денег, а не согласование"
+  },
+  {
+   "id": "g-approval-2",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Документы приняты, но платёж ещё висит на согласовании внутри компании.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "g-approval-3",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Почему счёт всё ещё не оплачен? У нас он сейчас на согласовании.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   },
+   "excluded": "написано от лица поставщика"
+  },
+  {
+   "id": "g-approval-4",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Оплата задерживается, потому что мы пока ждём одобрения от руководства.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   }
+  },
+  {
+   "id": "g-approval-5",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Высылаю напоминание о том, что платёж до сих пор не прошёл внутреннюю процедуру согласования.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   },
+   "excluded": "написано от лица поставщика"
+  },
+  {
+   "id": "g-approval-6",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Оплатили бы уже наконец! Документы давно согласованы, а деньги всё ещё где-то там в пути.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 0.62,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.67,
+     "details": 0.0,
+     "silence": 0.04,
+     "paid": 0.14,
+     "none": 0.15
+    },
+    "pred": "approval"
+   },
+   "excluded": "противоречивое: «оплатили бы» и «деньги в пути»"
+  },
+  {
+   "id": "g-approval-7",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Прошу уточнить статус оплаты по нашему счёту, поскольку он находится на стадии утверждения клиентом.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   },
+   "excluded": "написано от лица поставщика"
+  },
+  {
+   "id": "g-approval-8",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Не могли бы Вы сообщить, когда будет произведена оплата за предоставленные услуги?",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.01,
+     "paid": 0.0,
+     "none": 0.99
+    },
+    "pred": "silence"
+   },
+   "excluded": "нет причины, написано от лица поставщика"
+  },
+  {
+   "id": "g-approval-9",
+   "source": "gigachat",
+   "label": "approval",
+   "text": "Наш финансовый отдел сообщает, что платёж ожидает финального утверждения руководством клиента.",
+   "jev": {
+    "choice": "approval",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 1.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "approval"
+   },
+   "excluded": "написано от лица поставщика"
+  },
+  {
+   "id": "g-details-1",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Поставщик, у вас ошибка в банковских реквизитах! Счёт так и остался неоплаченным.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-2",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Опять неверные реквизиты прислали... Оплату откладываем до исправления.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-3",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Почему опять вернулись деньги? Неправильно указали номер счёта!",
+   "jev": {
+    "choice": "details",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.99,
+     "silence": 0.0,
+     "paid": 0.01,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-4",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Снова какие-то проблемы с платежом. Проверьте ваши банковские данные.",
+   "jev": {
+    "choice": "details",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.99,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.01
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-5",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Ошибка в расчетном счете поставщика, поэтому оплата не прошла.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-6",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Оплатили вам вчера, но деньги вернулись обратно — похоже, что-то пошло не так с вашими банковскими данными.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-7",
+   "source": "gigachat",
+   "label": "details",
+   "text": "У нас тут проблема вышла: деньги на ваш счет не поступили, потому что вы указали неправильный БИК банка.",
+   "jev": {
+    "choice": "details",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 1.0,
+     "silence": 0.0,
+     "paid": 0.0,
+     "none": 0.0
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-8",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Вы снова ошиблись при указании счета, вот деньги и вернулись. Исправьте пожалуйста!",
+   "jev": {
+    "choice": "details",
+    "confidence": 0.95,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.96,
+     "silence": 0.0,
+     "paid": 0.03,
+     "none": 0.01
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-9",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Непонятно, почему деньги вернулись, видимо, ошиблись в номере счета.",
+   "jev": {
+    "choice": "details",
+    "confidence": 0.98,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.98,
+     "silence": 0.0,
+     "paid": 0.01,
+     "none": 0.01
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-details-10",
+   "source": "gigachat",
+   "label": "details",
+   "text": "Проверьте свои реквизиты, пожалуйста. Оплата не дошла до нас.",
+   "jev": {
+    "choice": "details",
+    "confidence": 0.97,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.97,
+     "silence": 0.0,
+     "paid": 0.02,
+     "none": 0.01
+    },
+    "pred": "details"
+   }
+  },
+  {
+   "id": "g-silence-1",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Прошу уточнить статус оплаты по нашему счёту №56789. Уже несколько дней прошло после оговорённой даты платежа, ответа от вас пока нет.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.54,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.4,
+     "paid": 0.0,
+     "none": 0.6
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-2",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Привет! Почему ещё не заплатили? Счёт давно пришёл, а денег всё нет.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.92,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.07,
+     "paid": 0.0,
+     "none": 0.93
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-3",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Опять тишина... Напоминаю о платеже. Надеюсь, скоро решите этот вопрос.",
+   "jev": {
+    "choice": "silence",
+    "confidence": 0.55,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.61,
+     "paid": 0.0,
+     "none": 0.39
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-4",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Счёт так и лежит неоплаченный. Когда планируете перевести деньги?",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.95,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.04,
+     "paid": 0.0,
+     "none": 0.96
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-5",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Почему до сих пор ничего не пришло на наш счёт? Мы уже ждали.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.92,
+    "p": {
+     "documents": 0.01,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.05,
+     "paid": 0.01,
+     "none": 0.93
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-6",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Заказ приняли, товар отгружен, а оплаты всё нет. Где наши деньги?",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.91,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.01,
+     "details": 0.0,
+     "silence": 0.07,
+     "paid": 0.0,
+     "none": 0.92
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-7",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Пожалуйста, объясните задержку оплаты по счёту №56789. Нам очень важно получить средства своевременно.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.98,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.02,
+     "paid": 0.0,
+     "none": 0.98
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-8",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Оплатили ли вы наш счёт? До сих пор ждём подтверждения.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.92,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.04,
+     "paid": 0.02,
+     "none": 0.93
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-silence-9",
+   "source": "gigachat",
+   "label": "silence",
+   "text": "Ещё раз напоминаем о необходимости оплатить счёт №56789. Надеемся на скорейшее решение данного вопроса.",
+   "jev": {
+    "choice": "none",
+    "confidence": 0.97,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.03,
+     "paid": 0.0,
+     "none": 0.97
+    },
+    "pred": "silence"
+   },
+   "excluded": "написано от лица поставщика, а не клиента"
+  },
+  {
+   "id": "g-paid-1",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Поставщик, платёж отправлен вами, однако пока не подтверждён нами.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 0.91,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.06,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.92,
+     "none": 0.02
+    },
+    "pred": "paid"
+   },
+   "excluded": "бессвязное"
+  },
+  {
+   "id": "g-paid-2",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Почему счет все еще не сверен? Уже заплатили!",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-paid-3",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Счет так и лежит неоплаченный, хотя деньги отправлены давно.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   },
+   "excluded": "противоречивое"
+  },
+  {
+   "id": "g-paid-4",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Отправили платеж, а теперь тишина... когда наконец сверинем?",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-paid-5",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Оплатили ваш счет, но он всё ещё числится как неоплаченный.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-paid-6",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Уже оплатили ваш счёт, что за задержка с подтверждением?",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-paid-7",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Заказчик: \"Оплачено, но у нас нет подтверждения оплаты.\" Поставщик: \"Что делать?\"",
+   "jev": {
+    "choice": "paid",
+    "confidence": 0.99,
+    "p": {
+     "documents": 0.01,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 0.99,
+     "none": 0.0
+    },
+    "pred": "paid"
+   },
+   "excluded": "диалог, а не письмо клиента"
+  },
+  {
+   "id": "g-paid-8",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Платёж отправлен, но мы его ещё не увидели.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-paid-9",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Заплатили вам уже месяц назад, а счета всё ещё не зачтены!",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  },
+  {
+   "id": "g-paid-10",
+   "source": "gigachat",
+   "label": "paid",
+   "text": "Вы получили наш платёж, но почему-то он не учтен на вашем балансе.",
+   "jev": {
+    "choice": "paid",
+    "confidence": 1.0,
+    "p": {
+     "documents": 0.0,
+     "dispute": 0.0,
+     "liquidity": 0.0,
+     "approval": 0.0,
+     "details": 0.0,
+     "silence": 0.0,
+     "paid": 1.0,
+     "none": 0.0
+    },
+    "pred": "paid"
+   }
+  }
+ ]
+}

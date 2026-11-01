@@ -1,0 +1,25 @@
+{
+ "model": "jev-1.13.0",
+ "answers": {
+  "cause": {
+   "type": "choice",
+   "choice": "paid",
+   "confidence": 0.99,
+   "probabilities": {
+    "documents": 0.01,
+    "dispute": 0.0,
+    "liquidity": 0.0,
+    "approval": 0.0,
+    "details": 0.0,
+    "silence": 0.0,
+    "paid": 0.99,
+    "none": 0.0
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 579,
+  "output_tokens": 77
+ },
+ "latency_ms": 1637
+}
